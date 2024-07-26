@@ -50,3 +50,7 @@ def increase_enemies():
 
 enemies = increase_enemies()
 print(f"Enemies outside function: {enemies}")
+
+# Global constant 
+
+PI = 3.14159
