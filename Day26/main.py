@@ -20,7 +20,13 @@
 # *********** Conditional List Comprehension ****************
 # new_list = [new_item for item in list if test]
 
-names = ["Sujan", "Sujata", "Susil", "Sujita","Susmita","Suhana"]
+# names = ["Sujan", "Sujata", "Susil", "Sujita","Susmita","Suhana"]
 
-short_names= [name.upper() for name in names if len(name)>5]
-print(short_names)
+# short_names= [name.upper() for name in names if len(name)>5]
+# print(short_names)
+
+
+# Practice
+numbers = [1,1,2,3,5,8,13,21,34,55]
+squared_numbers = [number*number for number in numbers]
+print(squared_numbers)
