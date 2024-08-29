@@ -27,6 +27,20 @@
 
 
 # Practice
-numbers = [1,1,2,3,5,8,13,21,34,55]
-squared_numbers = [number*number for number in numbers]
-print(squared_numbers)
+# numbers = [1,1,2,3,5,8,13,21,34,55]
+# squared_numbers = [number*number for number in numbers]
+# print(squared_numbers)
+
+# even_numbers = [num for num in numbers if num%2==0]
+# print(even_numbers)
+
+
+with open ("file1.txt") as file1:
+    file1 = file1.readlines()
+    # print(file1)
+with open ("file2.txt") as file2:
+    file2 = file2.readlines()
+    # print(file2)
+
+result = [int(number) for number in file1 if number in file2]
+print(result)
