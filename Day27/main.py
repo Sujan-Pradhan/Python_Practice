@@ -11,7 +11,7 @@ my_label = Label(text="I am a Label",font=("Arial",24,"bold"))
 my_label.pack(side='top')
 
 my_label["text"] = "This is a New Text"
-my_label.config(text = "This is a New Text")
+my_label.config(text = "This is a Next New Text")
 
 # Button
 
