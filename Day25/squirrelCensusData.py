@@ -12,4 +12,4 @@ data_dict = {
 }
 
 finalData = pd.DataFrame(data_dict)
-finalData.to_csv('squirrel-fur-color-count.csv')  
+finalData.to_csv('squirrel-fur-color-count.csv',index=False)  
